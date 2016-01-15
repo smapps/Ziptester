@@ -9,10 +9,11 @@
     </author>
     <content src="index.html" />
    
-    <gap:plugin name="org.apache.cordova.file"/>
-    <gap:plugin name="org.apache.cordova.file-transfer"/>
-    <gap:plugin name="org.chromium.zip"/>
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+   <plugin name="cordova-plugin-whitelist" spec="1.2.0" />
+<plugin name="org.apache.cordova.file" source="pgb" spec="n/a" />
+<plugin name="org.apache.cordova.file-transfer" source="pgb" spec="n/a" />
+<plugin name="org.chromium.zip" source="pgb" spec="n/a" />
+
     
     <access origin="*" />
     <allow-intent href="http://*/*" />
